@@ -50,3 +50,14 @@ body{
     position: relative;
 }
 
+.socials{
+    max-width: 700px;
+    margin: auto;
+}
+footer{
+    background-color: #00439C;
+}
+.play-logo-description img{
+    width: 20px;
+    height: 24px;
+}
