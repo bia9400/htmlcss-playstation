@@ -24,3 +24,23 @@
     background-color: #00439C;
     border: none;
 }
+.card-descriptio{
+    width: 80%;
+    padding-left: 1rem;
+    
+}
+.fa-trademark{
+    font-size: 10px;
+    
+}
+.tm-relative{
+    position: relative;
+}
+.tm{
+    position: absolute;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    bottom: 40%;
+    left: 92px;
+}
