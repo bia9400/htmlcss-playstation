@@ -6,11 +6,15 @@
     border-radius: 20px;
     overflow: hidden;
 } 
+.card img{
+    width: 100%;
+}
 .card-img-description img{
     width: 100%;
 }
 .description{
     color: black;
+    margin-top: 5rem;
 }
 .description h2{
     color: black;

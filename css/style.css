@@ -9,7 +9,7 @@ body{
 }
 
 .section:not(.full-height){
-    padding: 2rem .5rem;
+    padding: 4rem .5rem;
 }
 .jumbotrone{
     background-image: url("../img/jumbo-bg.png");
