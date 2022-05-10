@@ -61,3 +61,13 @@ footer{
     width: 20px;
     height: 24px;
 }
+footer li{
+    list-style: none;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer svg{
+    background-color:#00439C ;
+}
