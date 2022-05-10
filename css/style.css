@@ -5,8 +5,22 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 
 .section:not(.full-height){
     padding: 2rem .5rem;
+}
+.jumbotrone{
+    background-image: url("../img/jumbo-bg.png");
+    background-size: cover;
+    background-position: center;
+}
+.banner{
+    padding-top: 10rem;
+    padding-bottom: 1.5rem;
+    width: 60%;
+}
+.banner img{
+    width: 100%;
 }
