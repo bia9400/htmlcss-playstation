@@ -15,6 +15,7 @@ body{
     background-image: url("../img/jumbo-bg.png");
     background-size: cover;
     background-position: center;
+    
 }
 .banner{
     padding-top: 10rem;
@@ -24,6 +25,28 @@ body{
 .banner img{
     width: 100%;
 }
+.banner-play-plus{
+    width: 50%;
+}
+.banner-play-plus img{
+    width: 100%;
+}
 .my-row-gap{
     row-gap: 1.5rem;
 }
+.padding-reset{
+    padding: 0;
+}
+.takes-it-two{
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.text-black{
+    color: black;
+    font-weight: bold;
+}
+.section .relative-position{
+    position: relative;
+}
+

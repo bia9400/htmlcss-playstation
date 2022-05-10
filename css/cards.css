@@ -1,5 +1,21 @@
 
+
 .card {
+    width: 100%;
+    border: 1px solid #1F1F1F;
     border-radius: 20px;
     overflow: hidden;
 } 
+.card-img-description img{
+    width: 100%;
+}
+.description{
+    color: black;
+}
+.description h2{
+    color: black;
+    font-weight: bold;
+}
+.card-no-radius{
+    border-radius: 0%;
+}
