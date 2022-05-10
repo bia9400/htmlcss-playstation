@@ -1,0 +1,12 @@
+@import url("variables.css");
+@import url("buttons.css");
+@import url("cards.css");
+@import url("navbar.css");
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section:not(.full-height){
+    padding: 2rem .5rem;
+}
