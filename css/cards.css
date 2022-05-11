@@ -85,7 +85,7 @@
     
 }
 .border-hover:hover{
-    border-color: blue;
+    border-color: #2d64e6;
     
 }
 .border-hover:hover a{
@@ -97,4 +97,24 @@
 }
 #joypad:focus .joypad-focus{
     display: block;
+}
+.gianpiniello a{
+    border: 2px solid white;
+}
+.gianpiniello:hover a{
+    box-shadow: 0 0 0 2px #2d64e6;
+    animation: up 0.4s linear;
+}
+@keyframes up{
+    0%{
+        transform: translateY(0);
+
+    }
+    70%{
+        transform: translateY(-30px);
+    }
+    0%{
+        transform: translateY(0);
+
+    }
 }

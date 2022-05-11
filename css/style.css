@@ -84,8 +84,8 @@ footer svg{
     background-color:#00439C ;
 }
 
-@media  screen and (max-width:1400px) {
+@media  screen and (max-width:1300px) {
     header span{
-        font-size: .65rem;
+        font-size: .70rem;
     }
 }
