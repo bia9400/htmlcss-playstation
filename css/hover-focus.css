@@ -1,0 +1,165 @@
+/* Utilities Hover and focus */
+.my-d-block{
+    display: none;
+    
+}
+.hidden{
+    display: none;
+}
+
+
+
+
+/* Hover and focus Header */
+.arzerbaan{
+    height: 220px;
+    width: 100%;
+    display: none;
+    background-color: white;
+    position: absolute;
+    top: 66px;
+    left: 0;
+}
+.arzerbaan-2{ 
+    width: 20%;   
+    top: 66px;
+    left: 80%;
+}
+nav a:hover .hidden-class{
+    display: none;
+}
+nav a:hover .my-d-block{
+    display: inline-block;
+}
+nav a:focus .arzerbaan{
+    display: block;
+    animation: headerAnimation .4s ease-in;
+}
+
+nav a:hover{
+    color:#0070d1;
+}
+@keyframes headerAnimation {
+    0% {
+        opacity: 0;
+        height: 0;
+        font-size: 0;
+        display: none;
+    }
+    
+   
+    99%{
+        
+        opacity: 0.2;
+        min-height: 220px;
+        font-size: 1rem;
+        
+        
+    }
+    100% {
+        opacity: 1;
+        min-height: 220px;
+        font-size: 1rem;
+    }
+}
+
+
+
+/* Footer hover */
+
+
+footer a:hover{
+    color: rgb(0, 0, 0);
+  
+}
+
+
+/* Playstation card hover */
+
+.border-hover{
+    border-bottom: 2px solid rgb(255, 255, 255);
+    border-radius: 2px;
+    
+}
+.border-hover:hover{
+    border-color: #2d64e6;
+    
+}
+.border-hover:hover a{  
+    opacity: 1;
+}
+#joypad:focus .joypad-focus{
+    display: block;
+}
+
+
+
+
+/* Buttons hover  */
+.gianpiniello a{
+    border: 2px solid white;
+}
+.gianpiniello:hover a{
+    box-shadow: 0 0 0 2px #2d64e6;
+    animation: up 0.4s linear;
+}
+.btn-dark:hover {
+    color: #fff;
+    background-color: #545557;
+    border-color: #545557;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color:#2d64e6 ;
+    border-color: #ffffff;
+
+  
+    box-shadow: 0 0 0 2px #2d64e6;
+}
+.btn-secondary:hover {
+    color: #fff;
+    background-color:#CD3D0F ;
+    border-color: white;
+
+    box-shadow: 0 0 0 2px #CD3D0F;
+}
+.btn-light:hover {
+    color: black;
+    background-color: #f8f9fa;
+    border-color: #000000;
+    
+
+    box-shadow: 0 0 0 2px #f8f9fa;
+}
+.btn-mine:hover {
+    
+    color: #3569E6;
+    background-color: #D9DADC;
+    border-color: black;
+    font-weight: bold;
+
+    box-shadow: 0 0 0 2px #D9DADC;
+}
+.btn-primary:focus {
+    color: #fff;
+    background-color: #032150;
+    border-color: #ffffff;
+    box-shadow: 0 0 0 2px #032150;
+}
+
+
+
+/* Card-game animation */
+@keyframes up{
+    0%{
+        transform: translateY(0);
+
+    }
+    70%{
+        transform: translateY(-30px);
+    }
+    0%{
+        transform: translateY(0);
+
+    }
+}

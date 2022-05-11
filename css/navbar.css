@@ -2,7 +2,6 @@
     background-color: black;
     
 }
-
 .logo img {
     
     width: 100px;
@@ -35,67 +34,9 @@ nav a {
 nav span {
     font-size: 1rem;
 }
-nav a:hover{
-    color:#0070d1;
-}
-footer a:hover{
-    color: rgb(0, 0, 0);
-    
-}
-nav a:hover .hidden-class{
-    display: none;
-}
-.my-d-block{
-    display: none;
-    
-}
-nav a:hover .my-d-block{
-    display: inline-block;
-}
-.arzerbaan{
-    height: 220px;
-    width: 100%;
-    display: none;
-    background-color: white;
-    position: absolute;
-    top: 66px;
-    left: 0;
-}
-.arzerbaan-2{ 
-    width: 20%;   
-    top: 66px;
-    left: 80%;
-}
 
-nav a:focus .arzerbaan{
-        display: block;
-        animation: headerAnimation .4s ease-in;
-}
 
 .bonus-nav{
     max-width: 70%;
     margin: auto;
 }   
-@keyframes headerAnimation {
-    0% {
-        opacity: 0;
-        height: 0;
-        font-size: 0;
-        display: none;
-    }
-    
-   
-    99%{
-        
-        opacity: 0.2;
-        min-height: 220px;
-        font-size: 1rem;
-        
-        
-    }
-    100% {
-        opacity: 1;
-        min-height: 220px;
-        font-size: 1rem;
-    }
-}
