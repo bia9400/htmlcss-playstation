@@ -15,7 +15,8 @@ body{
     background-image: url("../img/jumbo-bg.png");
     background-size: cover;
     background-position: center;
-    
+    object-position: left;
+    padding-top: 10rem;
 }
 .banner{
     padding-top: 10rem;
