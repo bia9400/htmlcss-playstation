@@ -14,8 +14,7 @@ body{
 .jumbotrone{
     background-image: url("../img/jumbo-bg.png");
     background-size: cover;
-    background-position: center;
-    object-position: left;
+    
     padding-top: 7rem;
 }
 
