@@ -11,28 +11,15 @@ body{
 .section:not(.full-height){
     padding: 4rem .5rem;
 }
-/* .jumbotrone{
+.jumbotrone{
     background-image: url("../img/jumbo-bg.png");
     background-size: cover;
     background-position: center;
     object-position: left;
     padding-top: 7rem;
-} */
-.relative-jumbo{
-    position: relative;
 }
-.jumbo-absolute{
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
 
-}
-.jumbo-absolute img{
-    width: 100%;
-}
+
 .banner{
     padding-top: 10rem;
     padding-bottom: 1.5rem;
@@ -41,7 +28,7 @@ body{
 .banner-takes-two{
     padding-top: 2rem;
     padding-bottom: 1.5rem;
-    width: 60%;
+    width: 50%;
 }
 .banner-takes-two img{
     
@@ -51,7 +38,7 @@ body{
     width: 100%;
 }
 .banner-play-plus{
-    width: 50%;
+    width: 60%;
 }
 .banner-play-plus img{
     width: 100%;
