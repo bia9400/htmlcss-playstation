@@ -34,3 +34,20 @@ nav a {
 nav span {
     font-size: .8rem;
 }
+nav a:hover{
+    color:#0070d1;
+}
+footer a:hover{
+    color: rgb(0, 0, 0);
+    
+}
+nav a:hover .hidden-class{
+    display: none;
+}
+.my-d-block{
+    display: none;
+    
+}
+nav a:hover .my-d-block{
+    display: inline-block;
+}
