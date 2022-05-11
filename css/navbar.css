@@ -69,9 +69,31 @@ nav a:hover .my-d-block{
 
 nav a:focus .arzerbaan{
         display: block;
+        animation: headerAnimation .5s linear;
 }
 
 .bonus-nav{
     max-width: 70%;
     margin: auto;
 }   
+@keyframes headerAnimation {
+    0% {
+        opacity: 0;
+        height: 0;
+        font-size: 0;
+        display: none;
+    }
+
+
+    40%{
+        min-height: 220px;
+        font-size: 1rem;
+        
+        
+    }
+    100% {
+        opacity: 1;
+        min-height: 220px;
+        font-size: 1rem;
+    }
+}
