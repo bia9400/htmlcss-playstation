@@ -4,7 +4,7 @@
 @import url("navbar.css");
 @import url("hover-focus.css");
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
@@ -13,20 +13,23 @@ body{
 
 
 /* Sections utilities */
-img{
+img {
     width: 100%;
 }
-.section:not(.full-height){
+
+.section:not(.full-height) {
     padding: 4rem .5rem;
 }
-.my-row-gap{
+
+.my-row-gap {
     row-gap: 1.5rem;
 }
-.padding-reset{
+
+.padding-reset {
     padding: 0;
 }
 
-.text-black{
+.text-black {
     color: black;
     font-weight: bold;
 }
@@ -34,7 +37,7 @@ img{
 
 
 /* Section umbotrone class */
-.jumbotrone{
+.jumbotrone {
     background-image: url("../img/jumbo-bg.png");
     background-size: cover;
     background-position: center;
@@ -42,7 +45,7 @@ img{
     min-height: 662.22px;
 }
 
-.banner{
+.banner {
     padding-top: 7rem;
     padding-bottom: 1.5rem;
     width: 60%;
@@ -51,12 +54,13 @@ img{
 
 
 /* Section Takes it two class*/
-.takes-it-two{
+.takes-it-two {
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
     background-size: cover;
     background-position: center;
 }
-.banner-takes-two{
+
+.banner-takes-two {
     padding-top: 2rem;
     padding-bottom: 1.5rem;
     width: 50%;
@@ -65,17 +69,18 @@ img{
 
 
 /* Play pluss class */
-.banner-play-plus{
+.banner-play-plus {
     width: 60%;
 }
-.section .relative-position{
+
+.section .relative-position {
     position: relative;
 }
 
 
 
 /* Social class */
-.socials{
+.socials {
     max-width: 700px;
     margin: auto;
 }
@@ -83,26 +88,30 @@ img{
 
 
 /* Footer class */
-.play-logo-description img{
+.play-logo-description img {
     width: 20px;
     height: 24px;
 }
-footer{
+
+footer {
     background-color: #00439C;
 }
-footer li{
+
+footer li {
     list-style: none;
 }
-footer a{
+
+footer a {
     text-decoration: none;
     color: white;
 }
-footer svg{
-    background-color:#00439C ;
+
+footer svg {
+    background-color: #00439C;
 }
 
-@media  screen and (max-width:1300px) {
-    header span{
+@media screen and (max-width:1300px) {
+    header span {
         font-size: .70rem;
     }
 }

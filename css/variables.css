@@ -8,15 +8,18 @@
 
 
 
-.bg-grey{
+.bg-grey {
     background-color: #1F1F1F;
 }
-.bg-lightgrey{
+
+.bg-lightgrey {
     background-color: #BEBCBB;
 }
-.blue{
+
+.blue {
     background-color: #161C3B;
 }
-.text-blue{
+
+.text-blue {
     color: blue;
 }
