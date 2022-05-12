@@ -3,13 +3,42 @@
 @import url("cards.css");
 @import url("navbar.css");
 @import url("hover-focus.css");
-@import url("query.css");
+
+
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
+h2,h1{
+    color: var(--font-lightblack) ;
+    
+}
+h5{
+   color: var(--font-grey);
+}
 
+.jumbotrone h2
+{
+    color: white;
+}
+.bg-grey {
+    background-color:var(--light-grey);
+    color: white;
+}
 
+.bg-lightgrey {
+    background-color: var(--super-light-grey);
+    color: black;
+}
+
+.blue {
+    background-color: var(--primary-darker);
+    color: white;
+}
+.text-no-limits{
+    color: #0876cf;
+}
 
 
 /* Sections utilities */
@@ -28,22 +57,28 @@ img {
 .padding-reset {
     padding: 0;
 }
-
-.text-black {
-    color: black;
-    font-weight: bold;
+.width-50 {
+    width: 100%;
 }
 
 
 
-/* Section umbotrone class */
+
+
+
+
+
+
+/* Section jumbotrone class */
 .jumbotrone {
     background-image: url("../img/jumbo-bg.png");
     background-size: cover;
     background-position: center;
     padding-top: 7rem;
     min-height: 662.22px;
+    
 }
+
 
 .banner {
     padding-top: 7rem;
@@ -63,7 +98,7 @@ img {
 .banner-takes-two {
     padding-top: 2rem;
     padding-bottom: 1.5rem;
-    width: 50%;
+    width: 55%;
 }
 
 
@@ -93,14 +128,25 @@ img {
     height: 24px;
 }
 
-footer {
-    background-color: #00439C;
-}
+
 
 footer li {
     list-style: none;
 }
 
+
+
+/* Obsolete class */
+
+
+.text-black {
+    color: black;
+    
+}
+
+footer {
+    background-color: #00439C;
+}
 footer a {
     text-decoration: none;
     color: white;
@@ -114,4 +160,10 @@ footer svg {
     header span {
         font-size: .70rem;
     }
+}
+
+
+.card-footer {
+    background-color: #00439C;
+    border: none;
 }

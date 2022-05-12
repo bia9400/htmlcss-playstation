@@ -3,7 +3,6 @@
     display: none;
 
 }
-
 .hidden {
     display: none;
 }
@@ -24,11 +23,7 @@
     
 }
 
-.arzerbaan-2 {
-    width: 20%;
-    top: 66px;
-    left: 80%;
-}
+
 
 .arzerbaan ul {
     list-style: none;

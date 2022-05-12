@@ -1,29 +1,38 @@
-/* :root{
-    --primary-color:#000;
-    --secondary-color:#000a;
-    -
+ :root{
+    --primary-color:#2d64e6 ;
+    --primary-light:#0072ce;
+    --primary-dark:#00439c;
+    --primary-darker:#161c3b;
+    --secondary-color:#cd3d0f;
+    
+    
+    --grey:#363636;
+    --light-grey:#1f1f1f;
+    --super-light-grey:#bebcbb;
+
+    --font-bigger: 3rem;
+    --font-medium:1.5rem;
+    --font-small:0.8rem;
+
+
+
+    --font-black:#000;
+    --font-lightblack:#1f1f1f;
+    --font-grey:#808080;
 }
 
- */
-.font-size-big{
-    font-size: 2rem;
-}
-.text-no-limits{
-    color: #0876cf;
-}
 
-.bg-grey {
-    background-color: #1F1F1F;
-}
 
-.bg-lightgrey {
-    background-color: #BEBCBB;
-}
 
-.blue {
-    background-color: #161C3B;
-}
 
-.text-blue {
-    color: blue;
-}
+
+
+
+
+
+
+
+
+
+
+
