@@ -15,7 +15,9 @@
     border: 1px solid grey;
 }
 nav{
-    position: relative;
+    background-color: white;
+    top: -17.6px;
+    position: sticky;
     padding: .5rem .6rem;
 }
 .header-links-icon img{
