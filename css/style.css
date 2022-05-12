@@ -26,7 +26,8 @@ a {
     color: white;
 }
 
-li {
+li,
+ul {
     list-style: none;
 }
 
@@ -109,6 +110,7 @@ img {
     min-height: 662.22px;
 
 }
+
 .banner {
     padding-top: 7rem;
     padding-bottom: 1.5rem;

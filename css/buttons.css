@@ -5,16 +5,16 @@
 .btn-primary {
 
     color: #fff;
-    background-color: #2d64e6;
-    border-color: #2d64e6;
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
 
 }
 
 .btn-secondary {
 
     color: #fff;
-    background-color: #CD3D0F;
-    border-color: #CD3D0F;
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
 
 }
 
@@ -27,13 +27,14 @@
 
 .btn-dark {
     color: #fff;
-    background-color: #363636;
-    border-color: #363636;
+    background-color: var(--grey);
+    border-color: var(--grey);
+    transition: color .3s;
     font-weight: bold;
 }
 
 .btn-mine {
-    color: #3569E6;
+    color: #2e65e6;
     background-color: #D9DADC;
     border-color: #D9DADC;
     font-weight: bold;

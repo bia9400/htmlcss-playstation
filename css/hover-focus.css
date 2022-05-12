@@ -3,6 +3,7 @@
     display: none;
 
 }
+
 .hidden {
     display: none;
 }
@@ -20,14 +21,12 @@
     top: 58px;
     left: -10px;
     padding: 0;
-    
+
 }
 
 
 
-.arzerbaan ul {
-    list-style: none;
-}
+
 
 .arzerbaan li {
     padding: .4rem 0;
@@ -52,7 +51,7 @@ nav a:focus .arzerbaan {
 }
 
 nav a:hover {
-    color: #0070d1;
+    color: var(--primary-light);
 }
 
 nav a:hover:focus {
@@ -104,12 +103,12 @@ footer a:hover {
 }
 
 .border-hover:hover {
-    border-color: #2d64e6;
+    border-color: var(--primary-light);
 
 }
 
 .border-hover:focus {
-    border-color: #2d64e6;
+    border-color: var(--primary-light);
     ;
 
 }
@@ -132,7 +131,7 @@ footer a:hover {
 }
 
 .gianpiniello a:hover {
-    box-shadow: 1px 1px 3px 5px #2d64e6;
+    box-shadow: 1px 1px 3px 5px var(--primary-light);
     animation: up 0.4s linear;
 }
 
@@ -185,25 +184,26 @@ footer a:hover {
 
 .btn-dark:hover {
     color: #fff;
-    background-color: #545557;
-    border-color: #545557;
+    background-color: var(--super-light-grey);
+    border-color: var(--super-light-grey);
+    color: black;
 }
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #2d64e6;
+    background-color: var(--primary-color);
     border-color: #ffffff;
 
 
-    box-shadow: 0 0 0 2px #2d64e6;
+    box-shadow: 0 0 0 3px var(--primary-color);
 }
 
 .btn-secondary:hover {
     color: #fff;
-    background-color: #CD3D0F;
+    background-color: var(--secondary-color);
     border-color: white;
 
-    box-shadow: 0 0 0 2px #CD3D0F;
+    box-shadow: 0 0 0 3px var(--secondary-color);
 }
 
 .btn-light:hover {
@@ -231,6 +231,3 @@ footer a:hover {
     border-color: #ffffff;
     box-shadow: 0 0 0 2px #032150;
 }
-
-
-

@@ -1,9 +1,9 @@
-
-@media  screen and (min-width:767.8px) {
+@media screen and (min-width:767.8px) {
     .width-50 {
         width: 50%;
     }
 }
+
 @media screen and (min-width:991.8px) {
     .arzerbaan {
         height: 220px;
@@ -14,24 +14,30 @@
         top: 58px;
         left: -10px;
     }
+
     .arzerbaan-2 {
         width: 20%;
         top: 58px;
         left: 80%;
     }
-    nav span{
+
+    nav span {
         font-size: .66rem;
     }
 
 }
+
 @media screen and (min-width:1250px) {
 
-    h1,h2{
-        font-size: var(--font-bigger); 
+    h1,
+    h2 {
+        font-size: var(--font-bigger);
     }
-    h6{
-        font-size:var(--font-small);
+
+    h6 {
+        font-size: var(--font-small);
     }
+
     .gianpiniello a:focus:hover {
         border: none;
         box-shadow: none;
@@ -49,16 +55,18 @@
 
 
 }
+
 @media screen and (min-width:1273px) {
-    
-    nav span{
+
+    nav span {
         font-size: 1rem;
     }
 
 }
+
 @media screen and (min-width:1440px) {
-    
-    nav span{
+
+    nav span {
         font-size: 1.2rem;
     }
 
