@@ -46,7 +46,10 @@ img{
     padding-bottom: 1.5rem;
     width: 60%;
 }
-
+.my-banner-img{
+    position: absolute;
+    z-index: 100;
+}
 
 
 /* Section Takes it two class*/
