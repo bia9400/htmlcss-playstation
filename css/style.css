@@ -3,7 +3,7 @@
 @import url("cards.css");
 @import url("navbar.css");
 @import url("hover-focus.css");
-
+@import url("query.css");
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: white;

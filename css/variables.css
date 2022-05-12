@@ -5,8 +5,12 @@
 }
 
  */
-
-
+.font-size-big{
+    font-size: 2rem;
+}
+.text-no-limits{
+    color: #0876cf;
+}
 
 .bg-grey {
     background-color: #1F1F1F;

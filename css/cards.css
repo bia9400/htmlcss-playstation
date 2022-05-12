@@ -16,13 +16,13 @@
 }
 
 .card-descriptio {
-    width: 85%;
-    padding-left: .5rem;
+    width: 100%;
+    padding-top: .5rem;
 
 }
 
-.card .width-50 {
-    width: 50%;
+.width-50 {
+    width: 100%;
 }
 
 .description {
