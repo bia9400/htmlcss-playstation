@@ -3,13 +3,9 @@
     display: none;
 
 }
-
 .hidden {
     display: none;
 }
-
-
-
 
 /* Hover and focus Header */
 .arzerbaan {
@@ -23,11 +19,6 @@
     padding: 0;
 
 }
-
-
-
-
-
 .arzerbaan li {
     padding: .4rem 0;
 }
@@ -135,7 +126,10 @@ footer a:hover {
     animation: up 0.4s linear;
 }
 
+.gianpiniello a:focus + .my-d-block{
+    display: block;
 
+}
 .card.bg-grey:hover {
 
     box-shadow: 0px 0px 4px 2px white;
