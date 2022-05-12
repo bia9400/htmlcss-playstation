@@ -39,6 +39,9 @@ nav a:focus .arzerbaan{
 nav a:hover{
     color:#0070d1;
 }
+nav a:hover:focus{
+    color:#000000;
+}
 @keyframes headerAnimation {
     0% {
         opacity: 0;
