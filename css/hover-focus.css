@@ -14,12 +14,14 @@
 /* Hover and focus Header */
 .arzerbaan {
     height: 220px;
-    width: 100%;
+    width: 115%;
     display: none;
     background-color: white;
     position: absolute;
-    top: 66px;
-    left: 0;
+    top: 58px;
+    left: -10px;
+    padding: 0;
+    
 }
 
 .arzerbaan-2 {
@@ -251,6 +253,19 @@ footer a:hover {
         animation: super-up 0.3s linear;
         transform: translateY(-800px);
 
+    }
+
+
+}
+@media screen and (min-width:991.8px) {
+    .arzerbaan {
+        height: 220px;
+        width: 102%;
+        display: none;
+        background-color: white;
+        position: absolute;
+        top: 58px;
+        left: -10px;
     }
 
 
