@@ -91,6 +91,12 @@ footer a:hover{
 .border-hover:hover a{  
     opacity: 1;
 }
+
+.border-hover a:focus {  
+    opacity: 1;
+    box-shadow: 2px 2px 5px  #2d64e6;
+}
+
 #joypad:focus .joypad-focus{
     display: block;
 }
