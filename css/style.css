@@ -45,7 +45,9 @@ footer svg {
     border: none;
 }
 
-.jumbotrone h2 {
+.jumbotrone h2,
+.takes-it-two h2,
+.bg-grey h5 {
     color: white;
 }
 
