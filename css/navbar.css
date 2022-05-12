@@ -19,6 +19,10 @@ nav{
     top: -17.6px;
     position: sticky;
     padding: .5rem .6rem;
+    z-index: 999;
+}
+.nav-relative{
+    position: relative;
 }
 .header-links-icon img{
     height: 15px;
