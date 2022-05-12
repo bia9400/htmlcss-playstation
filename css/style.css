@@ -10,20 +10,46 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
-h2,h1{
-    color: var(--font-lightblack) ;
-    
-}
-h5{
-   color: var(--font-grey);
+
+h2,
+h1 {
+    color: var(--font-lightblack);
+
 }
 
-.jumbotrone h2
-{
+h5 {
+    color: var(--font-grey);
+}
+
+a {
+    text-decoration: none;
     color: white;
 }
+
+li {
+    list-style: none;
+}
+
+footer {
+    background-color: var(--primary-dark);
+}
+
+
+footer svg {
+    background-color: var(--primary-dark);
+}
+
+.card-footer {
+    background-color: var(--primary-dark);
+    border: none;
+}
+
+.jumbotrone h2 {
+    color: white;
+}
+
 .bg-grey {
-    background-color:var(--light-grey);
+    background-color: var(--light-grey);
     color: white;
 }
 
@@ -36,9 +62,14 @@ h5{
     background-color: var(--primary-darker);
     color: white;
 }
-.text-no-limits{
+
+.text-no-limits {
     color: #0876cf;
 }
+
+
+
+
 
 
 /* Sections utilities */
@@ -57,14 +88,14 @@ img {
 .padding-reset {
     padding: 0;
 }
+
 .width-50 {
     width: 100%;
 }
 
-
-
-
-
+.text-black {
+    color: black;
+}
 
 
 
@@ -76,10 +107,8 @@ img {
     background-position: center;
     padding-top: 7rem;
     min-height: 662.22px;
-    
+
 }
-
-
 .banner {
     padding-top: 7rem;
     padding-bottom: 1.5rem;
@@ -102,7 +131,6 @@ img {
 }
 
 
-
 /* Play pluss class */
 .banner-play-plus {
     width: 60%;
@@ -113,13 +141,11 @@ img {
 }
 
 
-
 /* Social class */
 .socials {
     max-width: 700px;
     margin: auto;
 }
-
 
 
 /* Footer class */
@@ -130,40 +156,8 @@ img {
 
 
 
-footer li {
-    list-style: none;
-}
-
-
-
-/* Obsolete class */
-
-
-.text-black {
-    color: black;
-    
-}
-
-footer {
-    background-color: #00439C;
-}
-footer a {
-    text-decoration: none;
-    color: white;
-}
-
-footer svg {
-    background-color: #00439C;
-}
-
 @media screen and (max-width:1300px) {
     header span {
         font-size: .70rem;
     }
-}
-
-
-.card-footer {
-    background-color: #00439C;
-    border: none;
 }
