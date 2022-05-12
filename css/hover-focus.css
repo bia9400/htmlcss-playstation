@@ -25,6 +25,12 @@
     top: 66px;
     left: 80%;
 }
+.arzerbaan ul{
+    list-style: none;
+}
+.arzerbaan li{
+    padding: .4rem 0;
+}
 nav a:hover .hidden-class{
     display: none;
 }
@@ -35,7 +41,10 @@ nav a:focus .arzerbaan{
     display: block;
     animation: headerAnimation .4s ease-in;
 }
-
+#hamburger-toggle:focus .arzerbaan-3{
+    display: block;
+    animation: headerAnimation .4s ease-in;
+}
 nav a:hover{
     color:#0070d1;
 }
@@ -213,6 +222,7 @@ footer a:hover{
            height: 703px;
            animation: super-up 0.3s linear;
            transform: translateY(-800px);
+           
        }
 
       
