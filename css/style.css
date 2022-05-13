@@ -81,6 +81,9 @@ footer svg {
 img {
     width: 100%;
 }
+.bonus-nav-img{
+    height: 100px;
+}
 
 .section:not(.full-height) {
     padding: 4rem .5rem;
@@ -101,7 +104,9 @@ img {
 .text-black {
     color: black;
 }
-
+.opacity-nav-link{
+    opacity: 1;
+}
 
 
 
