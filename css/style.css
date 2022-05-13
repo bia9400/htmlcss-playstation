@@ -14,9 +14,11 @@ body {
 h2,
 h1 {
     color: var(--font-lightblack);
-
+    font-size: calc(1.925rem + .9vw);
 }
-
+h3{
+    font-size: calc(1.5rem + .6vw);
+}
 h5 {
     color: var(--font-grey);
 }
